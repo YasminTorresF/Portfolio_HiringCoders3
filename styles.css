@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Work Sans', sans-serif; 
+   
+}
+
+ul {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #585b4b; 
+}
+
+a {
+    text-decoration: none;
+    color:#585b4b
+}
+
+body {
+    /*background-image: url(./imagens/pexels-neil-yonamine-7575489.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size:cover;*/
+    background-color: #eaded5; 
+    font-weight: 200;  
+    color: #a3543d;
+}
+.container {
+    text-align: center;
+}
+.container div h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+.container div h5 {
+    color: #585b4b;
+    font-size: 20px;
+}
+#about p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+.form{
+    width: 40%;
+    margin: 0 auto;
+}
+.form input{
+    width: 30%;
+}
+.form button{
+    width: 15%;
+}
