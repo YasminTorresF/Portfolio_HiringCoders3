@@ -1,4 +1,7 @@
  
+<h1 align="center">
+    <img alt="HiringCoders" src="C:\Users\Yasmin Torres\Documents\Backup\Area de trabalho\Cursos\Programação\Hiring Code#3\Projetos\Portfolio\Imagens\hiringcoders.png"/>
+</h1>
 
 
 <h2 align="center"> 
