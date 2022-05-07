@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Ícones/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&family=Work+Sans:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Yasmin Torres</title>
+</head>
+<body>
+    <header>
+        <div class="code">
+            <i class="fa-solid fa-code fa-2x"></i>
+        </div>
+        <ul>
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/yasmin-torres/">LinkedIn</a>
+            </li>
+            <l1>
+                <i class="fa-solid fa-grip-lines-vertical"></i>
+            </l1>
+            <li>
+                <a target="_blank" href="https://github.com/YasminTorresF">GitHub</a>
+            </li>
+            <l1>
+                <i class="fa-solid fa-grip-lines-vertical"></i>
+            </l1>
+            <li>
+                <a target="_blank" href="mailto:yasmintorresf@gmail.com">Email</a>
+            </li>
+            <l1>
+                <i class="fa-solid fa-grip-lines-vertical"></i>
+            </l1>
+            <li>
+                <a target="_blank" href="https://wa.me/+55081982498409">Contato</a>
+            </li>
+        </ul>
+
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">                
+                <h1>Yasmin Torres</h1>
+                <h5>Desenvolvedora Frontend Jr</h5>
+            </div>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-chevron-down fa-2x"></i>               
+            </div>
+            <div style="display: none" id="about">
+                <p>
+                    Uma arquiteta em transição de carreira para o mundo tech. Meu foco tem sido atuar como desenvolvedora frontend, por isso, iniciei estudando linguagens como HTML, CSS e JavaScript. Atualmente participo do Bootcamp Hiring Coders #3, promovido pela Gama Academy em parceria com a VTEX.
+                </p>
+                <div class="tec">
+                    <p>Conhecimentos básicos:</p>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js-square"></i>
+                    <i class="fa-brands fa-github"></i>
+                    
+                </div>
+            </div>
+            <div class="form">
+                <div>
+                    <p>Deixe seu contato!</p>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Seu melhor email!">
+                    <button >Enviar!</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById("animation");
+            arrow.classList.toggle("rotate");
+            var display = document.getElementById("about");
+            display.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
